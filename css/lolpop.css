@@ -1,0 +1,362 @@
+@font-face {
+	font-family: 'neoncityscript';
+	src: url('../fonts/NeoncityScript.eot');
+	src: local('☺'), url('../fonts/NeoncityScript.woff') format('woff'), url('../fonts/NeoncityScript.ttf') format('truetype'), url('../fonts/NeoncityScript.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'neonglow';
+	src: url('../fonts/NeonGlow.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'quicksand';
+	src: url('../fonts/Quicksand.ttf') format('truetype');
+}
+
+body {
+  font-family: "quicksand";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.navbar-brand:any-link {
+  color: #22A3DB;
+  font-family: 'quicksand',sans-serif;
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-family: 'neoncityscript',Sans-Serif;
+  font-size: 120px;
+  margin: 10px 0 30px 0;
+}
+
+header {
+  padding-top: 0px;
+  padding-bottom: 0;
+}
+
+.logo {
+  box-shadow: 0 0 10px black inset;
+}
+
+.neonborder-green {
+  border: #fff;
+  border-width: 5px;
+  box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #95C244,
+      0 0 82px #95C244;
+}
+
+.neonborder-blue {
+  border: #fff;
+  box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 42px #22A3DB;
+}
+
+.neonborder-yellow {
+  border: #fff;
+  border-width: 5px;
+  box-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #F9BA1A,
+      0 0 82px #F9BA1A;
+}
+
+.neon-red {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #E42B2D,
+      0 0 82px #E42B2D,
+      0 0 92px #E42B2D,
+      0 0 102px #E42B2D,
+      0 0 151px #E42B2D;
+
+}
+
+.neon-red:hover {
+  animation: pulsate-red 1.5s infinite alternate;
+}
+
+.neon-blue {
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #22A3DB,
+      0 0 82px #22A3DB,
+      0 0 92px #22A3DB,
+      0 0 102px #22A3DB,
+      0 0 151px #22A3DB;
+}
+
+.neon-blue:hover {
+  animation: pulsate-blue 1.5s infinite alternate;
+}
+
+.neon-green {
+  color: #ddff9f;
+  text-shadow:
+      0 0 7px #ddff9f,
+      0 0 10px #ddff9f,
+      0 0 21px #ddff9f,
+      0 0 42px #ddff9f,
+      0 0 82px #95C244,
+      0 0 92px #95C244,
+      0 0 102px #95C244,
+      0 0 151px #95C244;
+}
+
+.neon-green:hover {
+  animation: pulsate-green 1.5s infinite alternate;
+}
+
+.neon-yellow {
+  color: #ddff9f;
+  text-shadow:
+      0 0 7px #ddff9f,
+      0 0 10px #ddff9f,
+      0 0 21px #ddff9f,
+      0 0 42px #F9BA1A,
+      0 0 82px #F9BA1A,
+      0 0 92px #F9BA1A,
+      0 0 102px #F9BA1A,
+      0 0 151px #F9BA1A;
+}
+
+.neon-yellow:hover {
+  animation: pulsate-yellow 1.5s infinite alternate;
+}
+
+@keyframes pulsate-red {
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #E42B2D,
+      0 0 80px #E42B2D,
+      0 0 90px #E42B2D,
+      0 0 100px #E42B2D,
+      0 0 150px #E42B2D;
+
+  }
+
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #E42B2D,
+    0 0 45px #E42B2D,
+    0 0 55px #E42B2D,
+    0 0 70px #E42B2D,
+    0 0 80px #E42B2D;
+  }
+}
+
+@keyframes pulsate-blue {
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #22A3DB,
+      0 0 80px #22A3DB,
+      0 0 90px #22A3DB,
+      0 0 100px #22A3DB,
+      0 0 150px #22A3DB;
+
+  }
+
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #22A3DB,
+    0 0 45px #22A3DB,
+    0 0 55px #22A3DB,
+    0 0 70px #22A3DB,
+    0 0 80px #22A3DB;
+  }
+}
+
+@keyframes pulsate-yellow {
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #F9BA1A,
+      0 0 80px #F9BA1A,
+      0 0 90px #F9BA1A,
+      0 0 100px #F9BA1A,
+      0 0 150px #F9BA1A;
+
+  }
+
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #F9BA1A,
+    0 0 45px #F9BA1A,
+    0 0 55px #F9BA1A,
+    0 0 70px #F9BA1A,
+    0 0 80px #F9BA1A;
+  }
+}
+
+@keyframes pulsate-green {
+  100% {
+
+      text-shadow:
+      0 0 4px #fff,
+      0 0 11px #fff,
+      0 0 19px #fff,
+      0 0 40px #95C244,
+      0 0 80px #95C244,
+      0 0 90px #95C244,
+      0 0 100px #95C244,
+      0 0 150px #95C244;
+
+  }
+
+  0% {
+
+    text-shadow:
+    0 0 2px #fff,
+    0 0 4px #fff,
+    0 0 6px #fff,
+    0 0 10px #95C244,
+    0 0 45px #95C244,
+    0 0 55px #95C244,
+    0 0 70px #95C244,
+    0 0 80px #95C244;
+  }
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+body {
+  font-weight: normal;
+  color: #fff;
+  background-color: #000;
+}
+
+nav {
+  background-color: #000;
+}
+
+#info a {
+  color: #000;
+  text-decoration: underline;
+}
+#info a:hover {
+  color: #000;
+}
+
+.naam {
+  font-family: "quicksand";
+  font-size: 60px;
+}
+
+
+.container {
+   padding: 70px 60px;
+}
+.person {
+   border: 10px solid #f1f1f1;
+   margin-bottom: 25px;
+   width: 80%;
+   height: 80%;
+   opacity: 1;
+}
+
+.navbar-toggler {
+  color: #121619;
+}
+
+.navbar-toggler-icon {
+  color: #121619;
+}
+
+.navbar {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #fff;
+  border: 0;
+  font-size: 1.3rem !important;
+  padding: 0;
+}
+.navbar li a, .navbar {
+  color: #121619/*d5d5d5*/ !important;
+}
+
+.navbar-nav li a.active  {
+  color: #22A3DB !important;
+  text-decoration: underline;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar{
+  background-color: #E42B2D;
+}
+
+footer {
+  background-color: #121619;
+  color: #f5f5f5;
+  padding: 32px;
+  letter-spacing: 1px;
+}
+footer a {
+  color: #fff;
+}
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+table th {
+  vertical-align: top; text-align: left; width: 58px; padding: 0;
+}
+table td {
+  padding: 3px 0px 25px 3%; line-height: 25px;
+}
+
+.artiestinfo {
+  padding-top: 40px;
+}
